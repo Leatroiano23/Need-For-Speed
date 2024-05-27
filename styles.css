@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "freeman";
+}
+
+header {
+  background: rgb(5, 2, 184);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 70px;
+}
+
+.navbar,
+.navbar-lista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 45%;
+}
+
+.navbar {
+  gap: 100px;
+}
+
+.navbar-lista {
+  gap: 65px;
+}
+
+.navbar-lista a {
+  color: rgb(255, 255, 255);
+}
