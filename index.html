@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
+    <title>NFS</title>
 
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -11,20 +11,58 @@
     <header>
       <!-- logo-->
       <img
-        src="Need_For_Speed_Logo_Blue.svg.png"
+        src="img-page/Need_For_Speed_Logo_Blue.svg.png"
         alt="Logo propio"
         class="logo"
       />
-      <!-- navbar -->
+
+      <!-- nav-list-->
       <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <img src="img-page/menu-transp.png" alt="" class="menu-img" />
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+
         <ul class="navbar-lista">
           <li><a href="#">Home</a></li>
           <li><a href="#">News</a></li>
-          <li><a href="#">Cars</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
         </ul>
       </nav>
     </header>
+    <main>
+      <section id="hero">
+        <div class="hero-info">
+          <h1>¡Bienvenido a un nuevo mundo!</h1>
+          <p>
+            Donde solo aquellos que saben superar los fracasos estan destinados
+            a triunfar, pero todo es posible si estas dispuesto a pagar un
+            precio. Vuelve el juego de carreras mas
+            <span>exitosos del mundo</span>, con una nueva saga desarrollada en
+            los 90 con muchas novedades nunca vistas. ¿Estan listos?, pronto lo
+            sabremos.
+          </p>
+          <div class="hero-boton">
+            <a class="btn-uno" href="#">Entra al garaje</a>
+            <a class="btn-dos" href="#">Modo historia</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="img-page/nfs-img.jpn.avif" alt="gamecar" />
+        </div>
+      </section>
+      <section id="data">
+        <div class="data-novedades">
+          <h2>QUEMA TODOS LOS LÍMITES</h2>
+          <p>
+            Need for Speed™ es un juego de carreras frenéticas y llenas de
+            adrenalina en el que, al anochecer, la ley desaparece. Ve al limite
+            y compite para ganar fonde en eventos de carrera, derrape y fugas.
+            Luego enfrentate a la cuidad por la noche y compite en carreras
+            callejeras clandestinas para forjar una reputacion.
+          </p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
